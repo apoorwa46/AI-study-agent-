@@ -2,7 +2,7 @@ from agents.planner import PlannerAgent
 from agents.content_agent import ContentAgent
 from agents.quiz_agent import QuizAgent
 from agents.feedback_agent import FeedbackAgent
-from tools.pdf_reader import read_pdf
+from tools.pdf_loader import read_pdf
 
 import google.generativeai as genai
 import os
