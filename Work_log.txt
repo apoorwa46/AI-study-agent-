@@ -1,0 +1,21 @@
+ 27-Dec-2025:
+Initial main commit with base project structure and agent modules.
+
+1-Apr-2026:
+
+* Set up updated industry-level project architecture
+* Integrated LangChain for RAG pipeline
+* Implemented PDF loading using PyPDFLoader
+* Added RecursiveCharacterTextSplitter for efficient chunking
+* Configured HuggingFace embeddings (all-MiniLM-L6-v2)
+* Built FAISS vector store for document retrieval
+* Created modular RAG service layer (rag_service.py)
+* Integrated Ollama LLM via LangChain wrapper(code part ollama not wroked upon till now)
+* Implemented RetrievalQA chain with custom prompt template
+* Successfully completed core RAG pipeline (document → retrieval → LLM response)
+
+Pending:
+* Test the RAG working
+* API layer implementation (upload, query endpoints)
+* Agent integration (planner, quiz, feedback)
+* Testing and validation of full pipeline
