@@ -1,19 +1,31 @@
+# 🔹 Backend
 fastapi
 uvicorn
-python-multipart
 pydantic
+python-multipart
 
+# 🔹 LangChain (latest modular ecosystem)
 langchain
-langchain-community
 langchain-core
+langchain-community
 langchain-text-splitters
 
-faiss-cpu
+# 🔹 Embeddings (NEW - replaces old HuggingFaceEmbeddings)
+langchain-huggingface
 sentence-transformers
 
+# 🔹 Vector DB
+faiss-cpu
+numpy
+
+# 🔹 Document Processing
 pypdf
 pdfplumber
 
+# 🔹 Ollama (NEW - replaces deprecated version)
+langchain-ollama
 ollama
 
+# 🔹 Utilities
 python-dotenv
+requests
